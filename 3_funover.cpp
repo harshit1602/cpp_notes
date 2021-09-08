@@ -1,5 +1,4 @@
 //This program demonstrates function overloading.
-//When two or more function have the same name but differ in parameter in sense of number or type is called as function overloading.
 #include<iostream>
 using namespace std;
 
@@ -34,11 +33,11 @@ return l*b*h;
 int main()
 {
     area();                        // Invoking Funtion area having no parameter
-    cout<<area(4)<<endl; //Invoking Funtion area having one parameter and passing fixed arguments.
-    cout<<area(2,3,4)<<endl; //Invoking Funtion area having three parameter and passing fixed arguments.
+    cout<<area(4)<<endl;           //Invoking Funtion area having one parameter and passing fixed arguments.
+    cout<<area(2,3,4)<<endl;       //Invoking Funtion area having three parameter and passing fixed arguments.
     //Taking input from user and passing it to the function.
     int x,y;
     cin>>x>>y;
-    cout<<area(x,y)<<endl; //Invoking Funtion area having two parameter and passing arguments taken from the user.
+    cout<<area(x,y)<<endl;         //Invoking Funtion area having two parameter and passing arguments taken from the user.
     return 0;
 }
